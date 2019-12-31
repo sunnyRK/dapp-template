@@ -6,8 +6,8 @@ if(typeof window !== 'undefined' && typeof window.web3 !== 'undefined') {
 }else{
     // we are in the server and matamask is not using by user
     const provider = new HDWalletProvider(
-        'mesh almost stairs envelope earth plastic interest hat stock camera panda boat', // metamask
-        'https://kovan.infura.io/v3/37bd907f93a146679960d54e729cd51a'
+        '<Add Pass phrase of your metamask here>', // metamask
+        'https://kovan.infura.io/v3/<ADD KOVAN ID HERE>'
     );
     web3 = new Web3(provider);
 }
